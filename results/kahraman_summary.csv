@@ -1,0 +1,16 @@
+method,auc,notes
+IEIM cosine only,0.5773,size-normalized IEIM shape signal
+3DZD pocket only,0.6567,pocket-restricted 3DZD surface shape
+PocketMatch only,0.6847,standalone baseline on canonical 4950 pairs
+Size-only baseline,0.7318,IEIM L2-norm difference control
+CGS-BSite only,0.7372,standalone residue-level baseline
+IEIM Euclidean only,0.7435,magnitude-sensitive IEIM score
+3-way fusion cosine best IS,0.7407,IEIM+CGS+PM in-sample grid
+3-way fusion cosine CV,0.7384,5-fold CV mean; std=0.0184
+3-way fusion Euclidean best IS,0.7703,IEIM+CGS best/equal weight
+3-way fusion Euclidean CV,0.7680,5-fold CV mean; std=0.0102
+4-way fusion cosine best IS,0.7593,DZD+IEIM+CGS best weighted
+4-way fusion cosine CV,0.7537,5-fold CV mean; std=0.0172
+4-way fusion Euclidean best IS,0.7815,DZD+IEIM+CGS best weighted
+4-way fusion Euclidean CV,0.7800,5-fold CV mean; std=0.0136
+Random baseline,0.5000,reference

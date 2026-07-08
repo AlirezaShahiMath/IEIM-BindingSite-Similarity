@@ -1,0 +1,15 @@
+protocol,method,auc,notes
+PDBbind all-ligand,IEIM cosine,0.6148,all ligand labels including peptide N-mer positives
+PDBbind all-ligand,IEIM Euclidean,0.5497,all ligand labels
+PDBbind all-ligand,Size-only baseline,0.5332,feature norm control
+PDBbind all-ligand,PocketMatch,0.5632,baseline
+PDBbind all-ligand,CGS-BSite,0.5425,baseline
+PDBbind all-ligand,3DZD pocket,0.6171,pocket-restricted 3DZD
+PDBbind all-ligand,4-way fusion CV,0.6406,5-fold CV; std=0.0090
+PDBbind non-peptide,IEIM cosine,0.7208,preferred non-peptide IEIM value
+PDBbind non-peptide,IEIM Euclidean,0.6320,non-peptide protocol
+PDBbind non-peptide,Size-only baseline,0.6034,feature norm control
+PDBbind non-peptide,PocketMatch,0.7451,preferred standalone value
+PDBbind non-peptide,CGS-BSite,0.7851,standalone baseline
+PDBbind non-peptide,3DZD pocket,0.7591,pocket-restricted 3DZD
+PDBbind non-peptide,4-way fusion CV,0.8185,5-fold CV; std=0.0168
