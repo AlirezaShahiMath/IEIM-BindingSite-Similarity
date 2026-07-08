@@ -1,0 +1,10 @@
+structure_id,ligand_class,nucleotide
+example_AMP_01,AMP,yes
+example_ATP_01,ATP,yes
+example_FAD_01,FAD,yes
+example_FMN_01,FMN,yes
+example_NAD_01,NAD,yes
+example_GLC_01,GLC,no
+example_HEM_01,HEM,no
+example_PO4_01,PO4,no
+example_STR_01,STR,no
